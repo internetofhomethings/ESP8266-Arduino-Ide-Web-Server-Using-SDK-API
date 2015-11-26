@@ -13,7 +13,7 @@ const char* password = "YOURWIFIPASSWORD";
 const IPAddress ipadd(192,168,0,132);     
 const IPAddress ipgat(192,168,0,1); 
 
-<hash>efine SVRPORT 9701
+>>hash<<define SVRPORT 9701
 
 4. Server Setting
 
