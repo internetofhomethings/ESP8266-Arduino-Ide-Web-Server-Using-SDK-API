@@ -13,17 +13,17 @@ const char* password = "YOURWIFIPASSWORD";
 const IPAddress ipadd(192,168,0,132);     
 const IPAddress ipgat(192,168,0,1); 
 
-##define SVRPORT 9701
+<hash>efine SVRPORT 9701
 
 4. Server Setting
 
 4.1 To use the standard Arduino Web Server library, which polls for connections, use this define in the sketch:
 
-##define SVR_TYPE SVR_HTTP_LIB
+<hash>define SVR_TYPE SVR_HTTP_LIB
 
 4.2 To use the EspressIf SDK Web Server API, which uses event callbacks, use this define in the sketch:
 
-##define SVR_TYPE SVR_HTTP_SDK
+<hash>define SVR_TYPE SVR_HTTP_SDK
 
 Operation:
 
