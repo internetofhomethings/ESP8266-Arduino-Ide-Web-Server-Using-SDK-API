@@ -6,7 +6,8 @@ Setup:
 
 1. Copy the web_server folder to your Arduino sketch folder.
 2. Copy the UtilityFunctions folder to your Arduino libraries folder.
-3. Change the following in the web_server sketch to match your network settings:
+3. Copy the webserver folder to your Arduino libraries folder.
+4. Change the following in the web_server sketch to match your network settings:
 
 const char* ssid = "YOURWIFISSID";
 const char* password = "YOURWIFIPASSWORD";
@@ -15,13 +16,13 @@ const IPAddress ipgat(192,168,0,1);
 
 define SVRPORT 9701
 
-4. Server Setting
+5. Server Setting
 
-4.1 To use the standard Arduino Web Server library, which polls for connections, use this define in the sketch:
+5.1 To use the standard Arduino Web Server library, which polls for connections, use this define in the sketch:
 
 define SVR_TYPE SVR_HTTP_LIB
 
-4.2 To use the EspressIf SDK Web Server API, which uses event callbacks, use this define in the sketch:
+5.2 To use the EspressIf SDK Web Server API, which uses event callbacks, use this define in the sketch:
 
 define SVR_TYPE SVR_HTTP_SDK
 
