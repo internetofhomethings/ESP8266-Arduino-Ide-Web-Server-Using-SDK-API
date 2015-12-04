@@ -22,6 +22,7 @@ extern "C" {
 #include "cont.h"
 #include "espconn.h"
 #include "eagle_soc.h"
+void * pvPortZalloc(int size);
 }
 
 //Server actions
