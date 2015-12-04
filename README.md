@@ -16,7 +16,7 @@ const IPAddress ipgat(192,168,0,1);
 
 define SVRPORT 9701
 
-5. Server Setting
+5.0 Server Setting
 
 5.1 To use the standard Arduino Web Server library, which polls for connections, use this define in the sketch:
 
