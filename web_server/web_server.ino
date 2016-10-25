@@ -18,11 +18,13 @@ extern "C" {
 #include "osapi.h"
 #include "mem_manager.h"
 #include "mem.h"
+#include "string.h"
 #include "user_interface.h"
 #include "cont.h"
 #include "espconn.h"
 #include "eagle_soc.h"
-void * pvPortZalloc(int size);
+#include <pgmspace.h>
+void * pvPortZalloc(int size,char *, int);
 }
 
 //Server actions
