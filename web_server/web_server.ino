@@ -434,8 +434,8 @@ void SdkWebServer_parse_url_params(char *precv, URL_Param *purl_param)
         return;
     }
 
-    //pbuffer = (char *)os_strstr(precv, "Host:");
-    pbuffer = (char *)os_strstr(precv, "Accept:");
+    pbuffer = (char *)os_strstr(precv, "Host:");
+    //pbuffer = (char *)os_strstr(precv, "Accept:");
 
     if (pbuffer != NULL) {
         length = pbuffer - precv;
